@@ -1,1 +1,18 @@
 https://replit.com/@Yi-Nuo-Moses28/106-Wen-Du-Zhuan-Huan#main.cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "請輸入數字\n";
+    
+    int num;
+    // centigrade thermometer
+    cin >> num;
+    if(num % 3 == 0){
+        cout << "此數字為三的倍數";
+    }else if(num % 3 == 1){
+        cout << "此數字除三餘一";
+    }else{
+        cout << "此數字除三餘一";
+    }
+    
